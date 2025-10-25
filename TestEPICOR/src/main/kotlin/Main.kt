@@ -3,7 +3,8 @@ package EpicorTest
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.URL
-
+import java.net.URL
+import java.util.*
 fun main() {
     val startTime = System.currentTimeMillis()
     val filePath = "https://courses.cs.washington.edu/courses/cse390c/22sp/lectures/moby.txt"
