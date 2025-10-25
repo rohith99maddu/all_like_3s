@@ -8,6 +8,7 @@ fun main() {
     val startTime = System.currentTimeMillis()
     val filePath = "https://courses.cs.washington.edu/courses/cse390c/22sp/lectures/moby.txt"
     val allFileContent = getFileContent(filePath)
+    val num=4
     // split the words at space(s) and non characters
     val allWords = allFileContent.split(Regex("\\s+|\\W+"))
     //map to store word along with its count
